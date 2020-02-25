@@ -49,11 +49,11 @@ const MainNavigator = createDrawerNavigator({
       { screen: MenuNavigator,
         navigationOptions: {
           title: 'Menu',
-          drawerLabel: 'Menu'
+          drawerLabel: 'Menu',
         }, 
       }
 }, {
-  drawerBackgroundColor: '#D1C4E9'
+  drawerBackgroundColor: '#D1C4E9',
 });
 
 class Main extends Component{
